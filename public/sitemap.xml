@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/" />
+  </url>
+
+  <!-- la-carte pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/la-carte</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/la-carte" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/la-carte" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/la-carte" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/la-carte</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/la-carte" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/la-carte" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/la-carte" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/la-carte</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/la-carte" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/la-carte" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/la-carte" />
+  </url>
+
+  <!-- notre-essence pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/notre-essence</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/notre-essence" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/notre-essence</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/notre-essence" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/notre-essence</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/notre-essence" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/notre-essence" />
+  </url>
+
+  <!-- galerie pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/galerie</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/galerie" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/galerie" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/galerie" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/galerie</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/galerie" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/galerie" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/galerie" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/galerie</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/galerie" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/galerie" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/galerie" />
+  </url>
+
+  <!-- contact pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/contact" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/contact" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/contact" />
+  </url>
+
+  <!-- reviews pages: French, Spanish, and English. -->
+  <url>
+    <loc>https://artmediterranibyroberto.com/reviews</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/reviews" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/reviews" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/reviews" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/es/reviews</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/reviews" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/reviews" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/reviews" />
+  </url>
+  <url>
+    <loc>https://artmediterranibyroberto.com/en/reviews</loc>
+    <xhtml:link rel="alternate" hreflang="fr"
+                href="https://artmediterranibyroberto.com/reviews" />
+    <xhtml:link rel="alternate" hreflang="es"
+                href="https://artmediterranibyroberto.com/es/reviews" />
+    <xhtml:link rel="alternate" hreflang="en"
+                href="https://artmediterranibyroberto.com/en/reviews" />
+  </url>
+</urlset>

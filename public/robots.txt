@@ -1,0 +1,6 @@
+# 1. Allow search engines to crawl the public website.
+User-agent: *
+Allow: /
+
+# 2. Discover all pages and their language alternatives.
+Sitemap: https://artmediterranibyroberto.com/sitemap.xml
