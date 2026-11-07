@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <!-- 1. Document settings, language alternatives, and shared styles. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#082d50" />
+    <title>The Menu | ART MEDITERRANI</title>
+    <meta
+      name="description"
+      content="Valencian specialities, seasonal creations and a paella imagined just for you. Mediterranean cooking prepared at your home, for the pleasure of sharing."
+    />
+    <link rel="alternate" hreflang="fr" href="../la-carte.html" />
+    <link rel="alternate" hreflang="es" href="../es/la-carte.html" />
+    <link rel="alternate" hreflang="en" href="../en/la-carte.html" />
+    <link rel="stylesheet" href="../brand.css" />
+    <script src="../app.js" defer></script>
+    <link rel="stylesheet" href="../carte.css" />
+    <script src="../carte.js" defer></script>
+    <link rel="stylesheet" href="../editorial.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a
+    ><!-- 2. Brand, main navigation, and language selector. -->
+    <header>
+      <a class="wordmark" href="index.html" aria-label="ART MEDITERRANI — Home"
+        ><span>ART</span><span>MEDITERRANI</span></a
+      >
+      <nav aria-label="Home">
+        <a href="index.html">Home</a><a href="la-carte.html" aria-current="page">The Menu</a
+        ><a href="notre-essence.html">Our Essence</a><a href="galerie.html">Gallery</a
+        ><a href="contact.html">Contact</a><a href="reviews.html">Reviews</a>
+      </nav>
+      <div class="languages" aria-label="Languages">
+        <a lang="fr" hreflang="fr" href="../la-carte.html">FR</a
+        ><a lang="es" hreflang="es" href="../es/la-carte.html">ES</a
+        ><a lang="en" hreflang="en" href="../en/la-carte.html" aria-current="true">EN</a>
+      </div>
+    </header>
+    <!-- 3. Main page content. -->
+    <main id="main" class="seasonal-carte">
+      <!-- 3.1. Introduction and event pricing. -->
+      <section class="carte-hero">
+        <p class="carte-eyebrow">Our menu · Private chef</p>
+        <h1>A paella, a season,<br />a story to share.</h1>
+        <p>
+          Valencian specialities, seasonal creations and a paella imagined just for you.
+          Mediterranean cooking prepared at your home, for the pleasure of sharing.
+        </p>
+        <p class="carte-price">From €17 / person</p>
+        <p class="carte-fine">
+          Events for 8 to 35 guests · Chef service, travel and setup quoted separately.
+        </p>
+      </section>
+      <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
+      <section class="carte-section" aria-labelledby="essentials-heading">
+        <p class="carte-eyebrow">01 · All year round</p>
+        <h2 id="essentials-heading">The essentials</h2>
+        <p class="carte-intro">
+          Our signature specialities, inspired by Valencian tradition and Mediterranean flavours.
+        </p>
+        <ul class="carte-dishes">
+          <li>
+            <span
+              >Traditional Valencian paella (chicken, green beans, garrofó beans and rosemary;
+              optional rabbit)</span
+            ><strong>€17</strong>
+          </li>
+          <li><span>Black rice with cuttlefish and squid</span><strong>€20</strong></li>
+          <li><span>Arroz del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
+          <li><span>Black fideuà with squid and sea bass</span><strong>€21</strong></li>
+          <li>
+            <span>Rice with rabbit, snails, red pepper and rosemary</span><strong>€21</strong>
+          </li>
+          <li><span>Rice with seasonal vegetables</span><strong>€17</strong></li>
+          <li>
+            <span
+              >Rice with white sausage, black pudding, pork belly, ribs, potatoes and tomato</span
+            ><strong>€20</strong>
+          </li>
+          <li><span>Fideuà del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
+          <li>
+            <span>Rice with truffled meatballs, white sausage and spinach</span><strong>€22</strong>
+          </li>
+          <li><span>Rice with octopus and potatoes</span><strong>€22</strong></li>
+        </ul>
+      </section>
+      <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
+      <section class="carte-section" aria-labelledby="seasonal-heading">
+        <p class="carte-eyebrow">02 · Through the year</p>
+        <h2 id="seasonal-heading">Seasonal creations</h2>
+        <p class="carte-intro">
+          Recipes inspired by market produce. Discover each season and its flavours.
+        </p>
+        <div class="carte-tabs" aria-label="Menu seasons" hidden>
+          <button type="button" id="tab-autumn" data-season="autumn" aria-controls="season-autumn">
+            Autumn</button
+          ><button type="button" id="tab-winter" data-season="winter" aria-controls="season-winter">
+            Winter</button
+          ><button type="button" id="tab-spring" data-season="spring" aria-controls="season-spring">
+            Spring</button
+          ><button type="button" id="tab-summer" data-season="summer" aria-controls="season-summer">
+            Summer
+          </button>
+        </div>
+        <section class="carte-season" id="season-autumn" aria-labelledby="heading-autumn">
+          <h3 id="heading-autumn">Autumn · September – November</h3>
+          <ul class="carte-dishes">
+            <li>
+              <span>Rice with roasted squash, mushrooms and rosemary</span><strong>€19</strong>
+            </li>
+            <li><span>Creamy rice with duck and mushrooms</span><strong>€23</strong></li>
+            <li><span>Rice with secreto pork, mushrooms and squash</span><strong>€23</strong></li>
+            <li><span>Paella with duck, mushrooms and foie gras</span><strong>€25</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
+          <h3 id="heading-winter">Winter · December – February</h3>
+          <ul class="carte-dishes">
+            <li><span>Creamy rice with cod and cauliflower</span><strong>€21</strong></li>
+            <li><span>Rice with artichokes and winter vegetables</span><strong>€19</strong></li>
+            <li><span>Fideuà with mushrooms and truffle</span><strong>€21</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
+          <h3 id="heading-spring">Spring · March – May</h3>
+          <ul class="carte-dishes">
+            <li>
+              <span>Rice with artichokes, green asparagus and broad beans</span><strong>€20</strong>
+            </li>
+            <li><span>Creamy rice with cod and cauliflower</span><strong>€21</strong></li>
+            <li><span>Rice with spring vegetables</span><strong>€17</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
+          <h3 id="heading-summer">Summer · June – August</h3>
+          <ul class="carte-dishes">
+            <li><span>Aubergine fideuà with nori seaweed aioli</span><strong>€19</strong></li>
+            <li><span>Rice with octopus and artichokes</span><strong>€22</strong></li>
+            <li>
+              <span>Creamy rice with monkfish, artichokes and prawns</span><strong>€25</strong>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- 3.4. Bespoke recipes and indicative pricing conditions. -->
+      <section class="carte-section">
+        <p class="carte-eyebrow">03 · Made for you</p>
+        <div class="carte-custom">
+          <h2>Your bespoke paella</h2>
+          <p><strong>Every event is unique. Your paella is too.</strong></p>
+          <p>
+            At ART MEDITERRANI, our menu is a source of inspiration, not a limit to your
+            imagination. Roberto works with you to create a recipe suited to your tastes and your
+            event.
+          </p>
+          <p>
+            Dry rice, creamy rice or fideuà: we choose the ingredients and combinations together,
+            according to the season and culinary possibilities.
+          </p>
+        </div>
+      </section>
+      <p class="carte-fine carte-price-note">
+        Prices per person, excluding event service fees. Recipes and prices are indicative.
+      </p>
+      <!-- 3.5. Workshop price, requirements, inclusions, and programme. -->
+      <section class="carte-workshop" id="ateliers" aria-labelledby="workshop-heading">
+        <p class="carte-eyebrow">04 · An experience to share</p>
+        <h2 id="workshop-heading">Paella &amp; Fideuà Workshop</h2>
+        <p class="carte-workshop-lead">Learn, cook and share a true Mediterranean moment.</p>
+        <p>
+          Explore the world of Valencian rice dishes and discover the secrets of authentic paella
+          and flavourful fideuà alongside Roberto.
+        </p>
+        <ul class="carte-facts">
+          <li>€70 / person</li>
+          <li>Minimum 8 participants</li>
+          <li>Around 3 hours</li>
+          <li>2 dishes: a rice dish and a fideuà</li>
+          <li>Tasting &amp; shared meal included</li>
+        </ul>
+        <h3>Everything is included in your workshop</h3>
+        <ul class="carte-inclusions">
+          <li>
+            <strong>A complete theory booklet to keep</strong>: all the recipes prepared, chef’s
+            tips and tricks, rice varieties, rice-to-stock ratios, cooking techniques, and
+            preparation of stocks and broths.
+          </li>
+          <li>
+            <strong>Two specialities cooked together</strong>: a traditional rice dish and a fideuà,
+            prepared step by step.
+          </li>
+          <li>
+            <strong>Unlimited sangria</strong>: with and without alcohol, during the workshop.
+          </li>
+          <li><strong>On-site tasting</strong>: of both dishes.</li>
+          <li>
+            <strong>A relaxed, family-style meal</strong>: around the table, sharing the dishes
+            prepared together.
+          </li>
+        </ul>
+        <h3>The programme</h3>
+        <p>
+          From selecting ingredients to controlling the heat, including the sofrito, stock
+          preparation and cooking ratios, discover the essential techniques for making rice dishes
+          and fideuà at home.
+        </p>
+        <p class="carte-closing">
+          Much more than a cooking class: a time to learn, share and enjoy Mediterranean flavours.
+        </p>
+        <a class="button" href="contact.html">Request a quote ↗</a>
+      </section>
+    </main>
+    <!-- 4. Footer and contact link. -->
+    <footer>
+      <a class="wordmark" href="index.html"><span>ART</span><span>MEDITERRANI</span></a>
+      <p>Paella, the sea, the pleasure of sharing.</p>
+      <a href="contact.html">Contact ↗</a>
+    </footer>
+    <!-- 5. Localised quotation messages. Keep the following data valid JSON. -->
+    <script type="application/json" id="translations">
+      {
+        "subject": "Quotation request — ART MEDITERRANI",
+        "labels": [
+          "Name",
+          "E-mail",
+          "Preferred date (optional)",
+          "Event location",
+          "Estimated guest count",
+          "Service type",
+          "Your plans, preferences and dietary needs"
+        ],
+        "copied": "Message copied.",
+        "copyfail": "Automatic copying is unavailable. Select the text below."
+      }
+    </script>
+  </body>
+</html>

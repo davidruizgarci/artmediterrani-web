@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr">
+  <!-- 1. Document settings, language alternatives, and shared styles. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#082d50" />
+    <title>La Carte | ART MEDITERRANI</title>
+    <meta
+      name="description"
+      content="Nos spécialités valenciennes, des créations au fil des saisons et une paella imaginée pour vous. Une cuisine méditerranéenne préparée chez vous, pour le plaisir de partager."
+    />
+    <link rel="alternate" hreflang="fr" href="./la-carte.html" />
+    <link rel="alternate" hreflang="es" href="./es/la-carte.html" />
+    <link rel="alternate" hreflang="en" href="./en/la-carte.html" />
+    <link rel="stylesheet" href="brand.css" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="carte.css" />
+    <script src="carte.js" defer></script>
+    <link rel="stylesheet" href="editorial.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Aller au contenu</a
+    ><!-- 2. Brand, main navigation, and language selector. -->
+    <header>
+      <a class="wordmark" href="index.html" aria-label="ART MEDITERRANI — Accueil"
+        ><span>ART</span><span>MEDITERRANI</span></a
+      >
+      <nav aria-label="Accueil">
+        <a href="index.html">Accueil</a><a href="la-carte.html" aria-current="page">La Carte</a
+        ><a href="notre-essence.html">Notre Essence</a><a href="galerie.html">Galerie</a
+        ><a href="contact.html">Contact</a><a href="reviews.html">Avis</a>
+      </nav>
+      <div class="languages" aria-label="Languages">
+        <a lang="fr" hreflang="fr" href="la-carte.html" aria-current="true">FR</a
+        ><a lang="es" hreflang="es" href="es/la-carte.html">ES</a
+        ><a lang="en" hreflang="en" href="en/la-carte.html">EN</a>
+      </div>
+    </header>
+    <!-- 3. Main page content. -->
+    <main id="main" class="seasonal-carte">
+      <!-- 3.1. Introduction and event pricing. -->
+      <section class="carte-hero">
+        <p class="carte-eyebrow">Notre carte · Chef privé</p>
+        <h1>Une paella, une saison,<br />une histoire à partager.</h1>
+        <p>
+          Nos spécialités valenciennes, des créations au fil des saisons et une paella imaginée pour
+          vous. Une cuisine méditerranéenne préparée chez vous, pour le plaisir de partager.
+        </p>
+        <p class="carte-price">À partir de 17 € / personne</p>
+        <p class="carte-fine">
+          Événements de 8 à 35 personnes · Prestation du chef, déplacement et installation sur
+          devis.
+        </p>
+      </section>
+      <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
+      <section class="carte-section" aria-labelledby="essentials-heading">
+        <p class="carte-eyebrow">01 · Toute l’année</p>
+        <h2 id="essentials-heading">Les incontournables</h2>
+        <p class="carte-intro">
+          Nos spécialités emblématiques, inspirées de la tradition valencienne et des saveurs
+          méditerranéennes.
+        </p>
+        <ul class="carte-dishes">
+          <li>
+            <span
+              >Paella valencienne traditionnelle (poulet, haricots verts, garrofó et romarin ; lapin
+              en option)</span
+            ><strong>17 €</strong>
+          </li>
+          <li><span>Riz noir à la seiche et aux calamars</span><strong>20 €</strong></li>
+          <li>
+            <span>Arroz del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong>
+          </li>
+          <li><span>Fideuà noire au calamar et au bar</span><strong>21 €</strong></li>
+          <li>
+            <span>Riz au lapin, escargots, poivron rouge et romarin</span><strong>21 €</strong>
+          </li>
+          <li><span>Riz aux légumes de saison</span><strong>17 €</strong></li>
+          <li>
+            <span
+              >Riz au boudin blanc, boudin noir, poitrine de porc, travers, pommes de terre et
+              tomate</span
+            ><strong>20 €</strong>
+          </li>
+          <li>
+            <span>Fideuà del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong>
+          </li>
+          <li>
+            <span>Riz aux boulettes truffées, boudin blanc et épinards</span><strong>22 €</strong>
+          </li>
+          <li><span>Riz au poulpe et pommes de terre</span><strong>22 €</strong></li>
+        </ul>
+      </section>
+      <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
+      <section class="carte-section" aria-labelledby="seasonal-heading">
+        <p class="carte-eyebrow">02 · Au fil de l’année</p>
+        <h2 id="seasonal-heading">Les créations de saison</h2>
+        <p class="carte-intro">
+          Des recettes inspirées des produits du marché. Découvrez chaque saison et ses saveurs.
+        </p>
+        <div class="carte-tabs" aria-label="Saisons de la carte" hidden>
+          <button type="button" id="tab-autumn" data-season="autumn" aria-controls="season-autumn">
+            Automne</button
+          ><button type="button" id="tab-winter" data-season="winter" aria-controls="season-winter">
+            Hiver</button
+          ><button type="button" id="tab-spring" data-season="spring" aria-controls="season-spring">
+            Printemps</button
+          ><button type="button" id="tab-summer" data-season="summer" aria-controls="season-summer">
+            Été
+          </button>
+        </div>
+        <section class="carte-season" id="season-autumn" aria-labelledby="heading-autumn">
+          <h3 id="heading-autumn">Automne · Septembre – novembre</h3>
+          <ul class="carte-dishes">
+            <li><span>Riz à la courge rôtie, champignons et romarin</span><strong>19 €</strong></li>
+            <li><span>Riz meloso au canard et aux champignons</span><strong>23 €</strong></li>
+            <li><span>Riz au secreto de porc, champignons et courge</span><strong>23 €</strong></li>
+            <li><span>Paella au canard, champignons et foie gras</span><strong>25 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
+          <h3 id="heading-winter">Hiver · Décembre – février</h3>
+          <ul class="carte-dishes">
+            <li><span>Riz meloso au cabillaud et chou-fleur</span><strong>21 €</strong></li>
+            <li><span>Riz aux artichauts et légumes d’hiver</span><strong>19 €</strong></li>
+            <li><span>Fideuà aux champignons et à la truffe</span><strong>21 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
+          <h3 id="heading-spring">Printemps · Mars – mai</h3>
+          <ul class="carte-dishes">
+            <li><span>Riz aux artichauts, asperges vertes et fèves</span><strong>20 €</strong></li>
+            <li><span>Riz meloso au cabillaud et chou-fleur</span><strong>21 €</strong></li>
+            <li><span>Riz aux légumes printaniers</span><strong>17 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
+          <h3 id="heading-summer">Été · Juin – août</h3>
+          <ul class="carte-dishes">
+            <li><span>Fideuà à l’aubergine et aïoli à l’algue nori</span><strong>19 €</strong></li>
+            <li><span>Riz au poulpe et aux artichauts</span><strong>22 €</strong></li>
+            <li>
+              <span>Riz meloso à la lotte, aux artichauts et aux crevettes</span
+              ><strong>25 €</strong>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- 3.4. Bespoke recipes and indicative pricing conditions. -->
+      <section class="carte-section">
+        <p class="carte-eyebrow">03 · À votre image</p>
+        <div class="carte-custom">
+          <h2>Votre paella sur mesure</h2>
+          <p><strong>Chaque événement est unique. Votre paella aussi.</strong></p>
+          <p>
+            Chez ART MEDITERRANI, notre carte est une source d’inspiration, pas une limite à votre
+            imagination. Roberto imagine avec vous une recette adaptée à vos goûts et à votre
+            événement.
+          </p>
+          <p>
+            Riz sec, riz meloso ou fideuà : nous choisissons ensemble les ingrédients et les
+            associations, selon la saison et les possibilités culinaires.
+          </p>
+        </div>
+      </section>
+      <p class="carte-fine carte-price-note">
+        Prix par personne, hors prestation événementielle. Recettes et tarifs indicatifs.
+      </p>
+      <!-- 3.5. Workshop price, requirements, inclusions, and programme. -->
+      <section class="carte-workshop" id="ateliers" aria-labelledby="workshop-heading">
+        <p class="carte-eyebrow">04 · Une expérience à partager</p>
+        <h2 id="workshop-heading">Atelier Paella &amp; Fideuà</h2>
+        <p class="carte-workshop-lead">
+          Apprenez, cuisinez et partagez un véritable moment méditerranéen.
+        </p>
+        <p>
+          Plongez dans l’univers des riz valenciens et découvrez les secrets d’une paella
+          authentique et d’une fideuà savoureuse, aux côtés de Roberto.
+        </p>
+        <ul class="carte-facts">
+          <li>70 € / personne</li>
+          <li>Minimum 8 participants</li>
+          <li>Environ 3 heures</li>
+          <li>2 préparations : un riz et une fideuà</li>
+          <li>Dégustation &amp; repas inclus</li>
+        </ul>
+        <h3>Tout est inclus dans votre atelier</h3>
+        <ul class="carte-inclusions">
+          <li>
+            <strong>Un dossier théorique complet à conserver</strong>: toutes les recettes
+            réalisées, conseils et astuces de chef, variétés de riz, proportions riz-bouillon,
+            techniques de cuisson, préparation des fonds et bouillons.
+          </li>
+          <li>
+            <strong>Deux spécialités cuisinées ensemble</strong>: un riz traditionnel et une fideuà,
+            réalisés étape par étape.
+          </li>
+          <li><strong>Sangria à volonté</strong>: avec et sans alcool, pendant l’atelier.</li>
+          <li><strong>Dégustation sur place</strong>: des deux préparations.</li>
+          <li>
+            <strong>Repas convivial et familial</strong>: autour de la table, pour partager les
+            plats préparés ensemble.
+          </li>
+        </ul>
+        <h3>Au programme</h3>
+        <p>
+          De la sélection des ingrédients à la maîtrise du feu, en passant par le sofrito, la
+          préparation des fonds et les proportions de cuisson, découvrez les gestes essentiels pour
+          réussir vos riz et fideuàs chez vous.
+        </p>
+        <p class="carte-closing">
+          Bien plus qu’un cours de cuisine : un moment de transmission, de partage et de saveurs
+          méditerranéennes.
+        </p>
+        <a class="button" href="contact.html">Demander un devis ↗</a>
+      </section>
+    </main>
+    <!-- 4. Footer and contact link. -->
+    <footer>
+      <a class="wordmark" href="index.html"><span>ART</span><span>MEDITERRANI</span></a>
+      <p>La paella, la mer, le plaisir de partager.</p>
+      <a href="contact.html">Contact ↗</a>
+    </footer>
+    <!-- 5. Localised quotation messages. Keep the following data valid JSON. -->
+    <script type="application/json" id="translations">
+      {
+        "subject": "Demande de devis — ART MEDITERRANI",
+        "labels": [
+          "Nom",
+          "E-mail",
+          "Date souhaitée (facultatif)",
+          "Lieu de l’événement",
+          "Nombre de convives estimé",
+          "Type de prestation",
+          "Votre projet, envies et besoins alimentaires"
+        ],
+        "copied": "Message copié.",
+        "copyfail": "La copie automatique est indisponible. Sélectionnez le texte ci-dessous."
+      }
+    </script>
+  </body>
+</html>
