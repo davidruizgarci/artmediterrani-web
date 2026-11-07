@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+  <!-- 1. Document settings, language alternatives, and shared styles. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#082d50" />
+    <title>La Carta | ART MEDITERRANI</title>
+    <meta
+      name="description"
+      content="Especialidades valencianas, creaciones de temporada y una paella pensada para ti. Cocina mediterránea preparada en tu casa, para disfrutar compartiendo."
+    />
+    <link rel="alternate" hreflang="fr" href="../la-carte.html" />
+    <link rel="alternate" hreflang="es" href="../es/la-carte.html" />
+    <link rel="alternate" hreflang="en" href="../en/la-carte.html" />
+    <link rel="stylesheet" href="../brand.css" />
+    <script src="../app.js" defer></script>
+    <link rel="stylesheet" href="../carte.css" />
+    <script src="../carte.js" defer></script>
+    <link rel="stylesheet" href="../editorial.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a
+    ><!-- 2. Brand, main navigation, and language selector. -->
+    <header>
+      <a class="wordmark" href="index.html" aria-label="ART MEDITERRANI — Inicio"
+        ><span>ART</span><span>MEDITERRANI</span></a
+      >
+      <nav aria-label="Inicio">
+        <a href="index.html">Inicio</a><a href="la-carte.html" aria-current="page">La Carta</a
+        ><a href="notre-essence.html">Nuestra Esencia</a><a href="galerie.html">Galería</a
+        ><a href="contact.html">Contacto</a><a href="reviews.html">Opiniones</a>
+      </nav>
+      <div class="languages" aria-label="Languages">
+        <a lang="fr" hreflang="fr" href="../la-carte.html">FR</a
+        ><a lang="es" hreflang="es" href="../es/la-carte.html" aria-current="true">ES</a
+        ><a lang="en" hreflang="en" href="../en/la-carte.html">EN</a>
+      </div>
+    </header>
+    <!-- 3. Main page content. -->
+    <main id="main" class="seasonal-carte">
+      <!-- 3.1. Introduction and event pricing. -->
+      <section class="carte-hero">
+        <p class="carte-eyebrow">Nuestra carta · Chef privado</p>
+        <h1>Una paella, una estación,<br />una historia para compartir.</h1>
+        <p>
+          Especialidades valencianas, creaciones de temporada y una paella pensada para ti. Cocina
+          mediterránea preparada en tu casa, para disfrutar compartiendo.
+        </p>
+        <p class="carte-price">Desde 17 € / persona</p>
+        <p class="carte-fine">
+          Eventos de 8 a 35 personas · Servicio del chef, desplazamiento e instalación bajo
+          presupuesto.
+        </p>
+      </section>
+      <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
+      <section class="carte-section" aria-labelledby="essentials-heading">
+        <p class="carte-eyebrow">01 · Todo el año</p>
+        <h2 id="essentials-heading">Los imprescindibles</h2>
+        <p class="carte-intro">
+          Nuestras especialidades más emblemáticas, inspiradas en la tradición valenciana y los
+          sabores mediterráneos.
+        </p>
+        <ul class="carte-dishes">
+          <li>
+            <span
+              >Paella valenciana tradicional (pollo, judías verdes, garrofó y romero; conejo
+              opcional)</span
+            ><strong>17 €</strong>
+          </li>
+          <li><span>Arroz negro con sepia y calamar</span><strong>20 €</strong></li>
+          <li><span>Arroz del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
+          <li><span>Fideuá negra con calamar y lubina</span><strong>21 €</strong></li>
+          <li>
+            <span>Arroz con conejo, caracoles, pimiento rojo y romero</span><strong>21 €</strong>
+          </li>
+          <li><span>Arroz con verduras de temporada</span><strong>17 €</strong></li>
+          <li>
+            <span>Arroz con blanquet, morcilla, panceta, costillas, patatas y tomate</span
+            ><strong>20 €</strong>
+          </li>
+          <li><span>Fideuá del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
+          <li>
+            <span>Arroz con albóndigas trufadas, blanquet y espinacas</span><strong>22 €</strong>
+          </li>
+          <li><span>Arroz con pulpo y patatas</span><strong>22 €</strong></li>
+        </ul>
+      </section>
+      <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
+      <section class="carte-section" aria-labelledby="seasonal-heading">
+        <p class="carte-eyebrow">02 · A lo largo del año</p>
+        <h2 id="seasonal-heading">Creaciones de temporada</h2>
+        <p class="carte-intro">
+          Recetas inspiradas en los productos del mercado. Descubre cada estación y sus sabores.
+        </p>
+        <div class="carte-tabs" aria-label="Temporadas de la carta" hidden>
+          <button type="button" id="tab-autumn" data-season="autumn" aria-controls="season-autumn">
+            Otoño</button
+          ><button type="button" id="tab-winter" data-season="winter" aria-controls="season-winter">
+            Invierno</button
+          ><button type="button" id="tab-spring" data-season="spring" aria-controls="season-spring">
+            Primavera</button
+          ><button type="button" id="tab-summer" data-season="summer" aria-controls="season-summer">
+            Verano
+          </button>
+        </div>
+        <section class="carte-season" id="season-autumn" aria-labelledby="heading-autumn">
+          <h3 id="heading-autumn">Otoño · Septiembre – noviembre</h3>
+          <ul class="carte-dishes">
+            <li><span>Arroz con calabaza asada, setas y romero</span><strong>19 €</strong></li>
+            <li><span>Arroz meloso con pato y setas</span><strong>23 €</strong></li>
+            <li><span>Arroz con secreto de cerdo, setas y calabaza</span><strong>23 €</strong></li>
+            <li><span>Paella con pato, setas y foie gras</span><strong>25 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
+          <h3 id="heading-winter">Invierno · Diciembre – febrero</h3>
+          <ul class="carte-dishes">
+            <li><span>Arroz meloso con bacalao y coliflor</span><strong>21 €</strong></li>
+            <li><span>Arroz con alcachofas y verduras de invierno</span><strong>19 €</strong></li>
+            <li><span>Fideuá con setas y trufa</span><strong>21 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
+          <h3 id="heading-spring">Primavera · Marzo – mayo</h3>
+          <ul class="carte-dishes">
+            <li>
+              <span>Arroz con alcachofas, espárragos verdes y habas</span><strong>20 €</strong>
+            </li>
+            <li><span>Arroz meloso con bacalao y coliflor</span><strong>21 €</strong></li>
+            <li><span>Arroz con verduras de primavera</span><strong>17 €</strong></li>
+          </ul>
+        </section>
+        <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
+          <h3 id="heading-summer">Verano · Junio – agosto</h3>
+          <ul class="carte-dishes">
+            <li><span>Fideuá de berenjena y alioli de alga nori</span><strong>19 €</strong></li>
+            <li><span>Arroz con pulpo y alcachofas</span><strong>22 €</strong></li>
+            <li><span>Arroz meloso con rape, alcachofas y gambas</span><strong>25 €</strong></li>
+          </ul>
+        </section>
+      </section>
+      <!-- 3.4. Bespoke recipes and indicative pricing conditions. -->
+      <section class="carte-section">
+        <p class="carte-eyebrow">03 · A tu medida</p>
+        <div class="carte-custom">
+          <h2>Tu paella a medida</h2>
+          <p><strong>Cada evento es único. Tu paella también.</strong></p>
+          <p>
+            En ART MEDITERRANI, nuestra carta es una fuente de inspiración, no un límite para tu
+            imaginación. Roberto crea contigo una receta adaptada a tus gustos y a tu evento.
+          </p>
+          <p>
+            Arroz seco, arroz meloso o fideuá: elegimos juntos los ingredientes y las combinaciones,
+            según la temporada y las posibilidades culinarias.
+          </p>
+        </div>
+      </section>
+      <p class="carte-fine carte-price-note">
+        Precios por persona, sin incluir el servicio del evento. Recetas y precios orientativos.
+      </p>
+      <!-- 3.5. Workshop price, requirements, inclusions, and programme. -->
+      <section class="carte-workshop" id="ateliers" aria-labelledby="workshop-heading">
+        <p class="carte-eyebrow">04 · Una experiencia para compartir</p>
+        <h2 id="workshop-heading">Taller de Paella y Fideuá</h2>
+        <p class="carte-workshop-lead">
+          Aprende, cocina y comparte un auténtico momento mediterráneo.
+        </p>
+        <p>
+          Sumérgete en el mundo de los arroces valencianos y descubre los secretos de una paella
+          auténtica y una fideuá llena de sabor, junto a Roberto.
+        </p>
+        <ul class="carte-facts">
+          <li>70 € / persona</li>
+          <li>Mínimo 8 participantes</li>
+          <li>Unas 3 horas</li>
+          <li>2 elaboraciones: un arroz y una fideuá</li>
+          <li>Degustación y comida incluidas</li>
+        </ul>
+        <h3>Todo está incluido en tu taller</h3>
+        <ul class="carte-inclusions">
+          <li>
+            <strong>Un dossier teórico completo para llevarte</strong>: todas las recetas
+            elaboradas, consejos y trucos del chef, variedades de arroz, proporciones de arroz y
+            caldo, técnicas de cocción y preparación de fondos y caldos.
+          </li>
+          <li>
+            <strong>Dos especialidades cocinadas juntos</strong>: un arroz tradicional y una fideuá,
+            elaborados paso a paso.
+          </li>
+          <li><strong>Sangría ilimitada</strong>: con y sin alcohol, durante el taller.</li>
+          <li><strong>Degustación en el lugar</strong>: de las dos elaboraciones.</li>
+          <li>
+            <strong>Comida familiar y en buena compañía</strong>: alrededor de la mesa, compartiendo
+            los platos preparados juntos.
+          </li>
+        </ul>
+        <h3>El programa</h3>
+        <p>
+          Desde la selección de los ingredientes hasta el control del fuego, pasando por el sofrito,
+          la preparación de los fondos y las proporciones de cocción, descubre los pasos esenciales
+          para preparar tus arroces y fideuás en casa.
+        </p>
+        <p class="carte-closing">
+          Mucho más que una clase de cocina: un momento para aprender, compartir y disfrutar de los
+          sabores mediterráneos.
+        </p>
+        <a class="button" href="contact.html">Pedir presupuesto ↗</a>
+      </section>
+    </main>
+    <!-- 4. Footer and contact link. -->
+    <footer>
+      <a class="wordmark" href="index.html"><span>ART</span><span>MEDITERRANI</span></a>
+      <p>La paella, el mar, el placer de compartir.</p>
+      <a href="contact.html">Contacto ↗</a>
+    </footer>
+    <!-- 5. Localised quotation messages. Keep the following data valid JSON. -->
+    <script type="application/json" id="translations">
+      {
+        "subject": "Solicitud de presupuesto — ART MEDITERRANI",
+        "labels": [
+          "Nombre",
+          "E-mail",
+          "Fecha deseada (opcional)",
+          "Lugar del evento",
+          "Número estimado de comensales",
+          "Tipo de servicio",
+          "Tu proyecto, preferencias y necesidades alimentarias"
+        ],
+        "copied": "Mensaje copiado.",
+        "copyfail": "No se puede copiar automáticamente. Selecciona el texto de abajo."
+      }
+    </script>
+  </body>
+</html>
