@@ -1,0 +1,8 @@
+{
+  "name": "artmediterrani-web",
+  "compatibility_date": "2026-11-09",
+  "assets": {
+    "directory": "./public"
+  },
+  "previews": {}
+}
