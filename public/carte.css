@@ -70,7 +70,7 @@
   flex-shrink: 0;
 }
 @media (min-width: 850px) {
-  .carte-section[aria-labelledby="essentials-heading"] > .carte-dishes {
+  .carte-dish-group > .carte-dishes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 36px;
@@ -104,6 +104,10 @@
 .carte-season {
   margin-top: 25px;
 }
+.carte-dish-group + .carte-dish-group {
+  margin-top: 1.5rem;
+}
+.carte-dish-group h3,
 .carte-season h3 {
   line-height: 1.35;
 }

@@ -52,39 +52,70 @@
         <p class="carte-fine">
           Events for 8 to 35 guests · Chef service, travel and setup quoted separately.
         </p>
+        <div class="carte-photo-strip">
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-paella-valencienne-800.jpg"
+              srcset="../assets/gallery-roberto-paella-valencienne-800.jpg 800w, ../assets/gallery-roberto-paella-valencienne.jpg 1800w"
+              sizes="(max-width: 650px) 90vw, 42vw"
+              width="1800"
+              height="1200"
+              alt="Valencian paella from above"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-ingredients-800.jpg"
+              srcset="../assets/gallery-roberto-ingredients-800.jpg 800w, ../assets/gallery-roberto-ingredients.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="The ingredients"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-vapeur-800.jpg"
+              srcset="../assets/gallery-roberto-vapeur-800.jpg 800w, ../assets/gallery-roberto-vapeur.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="Steam rising from the vegetables"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
       </section>
       <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
       <section class="carte-section" aria-labelledby="essentials-heading">
         <p class="carte-eyebrow">01 · All year round</p>
         <h2 id="essentials-heading">The essentials</h2>
-        <p class="carte-intro">
-          Our signature specialities, inspired by Valencian tradition and Mediterranean flavours.
-        </p>
-        <ul class="carte-dishes">
-          <li>
-            <span
-              >Traditional Valencian paella (chicken, green beans, garrofó beans and rosemary;
-              optional rabbit)</span
-            ><strong>€17</strong>
-          </li>
-          <li><span>Black rice with cuttlefish and squid</span><strong>€20</strong></li>
-          <li><span>Arroz del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
-          <li><span>Black fideuà with squid and sea bass</span><strong>€21</strong></li>
-          <li>
-            <span>Rice with rabbit, snails, red pepper and rosemary</span><strong>€21</strong>
-          </li>
-          <li><span>Rice with seasonal vegetables</span><strong>€17</strong></li>
-          <li>
-            <span
-              >Rice with white sausage, black pudding, pork belly, ribs, potatoes and tomato</span
-            ><strong>€20</strong>
-          </li>
-          <li><span>Fideuà del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
-          <li>
-            <span>Rice with truffled meatballs, white sausage and spinach</span><strong>€22</strong>
-          </li>
-          <li><span>Rice with octopus and potatoes</span><strong>€22</strong></li>
-        </ul>
+        <p class="carte-intro">Our Valencian and Mediterranean specialities, available all year round.</p>
+        <div class="carte-dish-group">
+          <h3>Rice dishes</h3>
+          <ul class="carte-dishes">
+            <li><span>Traditional Valencian paella (chicken, green beans, garrofó beans and rosemary; optional rabbit)</span><strong>€17</strong></li>
+            <li><span>Black rice with cuttlefish and squid</span><strong>€22</strong></li>
+            <li><span>Arroz del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
+            <li><span>Rice with rabbit, snails, red pepper and rosemary</span><strong>€19</strong></li>
+            <li><span>Rice with seasonal vegetables</span><strong>€18</strong></li>
+            <li><span>Rice with white sausage, black pudding, pork belly, ribs, potatoes and tomato</span><strong>€21</strong></li>
+            <li><span>Rice with truffled meatballs, white sausage and spinach</span><strong>€22</strong></li>
+            <li><span>Rice with octopus and potatoes</span><strong>€23</strong></li>
+          </ul>
+        </div>
+        <div class="carte-dish-group">
+          <h3>Fideuàs</h3>
+          <ul class="carte-dishes">
+            <li><span>Black fideuà with squid and sea bass</span><strong>€22</strong></li>
+            <li><span>Fideuà del senyoret: squid, sea bream and prawns</span><strong>€22</strong></li>
+          </ul>
+        </div>
       </section>
       <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
       <section class="carte-section" aria-labelledby="seasonal-heading">
@@ -110,9 +141,7 @@
             <li>
               <span>Rice with roasted squash, mushrooms and rosemary</span><strong>€19</strong>
             </li>
-            <li><span>Creamy rice with duck and mushrooms</span><strong>€23</strong></li>
             <li><span>Rice with secreto pork, mushrooms and squash</span><strong>€23</strong></li>
-            <li><span>Paella with duck, mushrooms and foie gras</span><strong>€25</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
@@ -120,7 +149,6 @@
           <ul class="carte-dishes">
             <li><span>Creamy rice with cod and cauliflower</span><strong>€21</strong></li>
             <li><span>Rice with artichokes and winter vegetables</span><strong>€19</strong></li>
-            <li><span>Fideuà with mushrooms and truffle</span><strong>€21</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
@@ -129,18 +157,14 @@
             <li>
               <span>Rice with artichokes, green asparagus and broad beans</span><strong>€20</strong>
             </li>
-            <li><span>Creamy rice with cod and cauliflower</span><strong>€21</strong></li>
-            <li><span>Rice with spring vegetables</span><strong>€17</strong></li>
+            <li><span>Dry rice with cauliflower and cod</span><strong>€21</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
           <h3 id="heading-summer">Summer · June – August</h3>
           <ul class="carte-dishes">
             <li><span>Aubergine fideuà with nori seaweed aioli</span><strong>€19</strong></li>
-            <li><span>Rice with octopus and artichokes</span><strong>€22</strong></li>
-            <li>
-              <span>Creamy rice with monkfish, artichokes and prawns</span><strong>€25</strong>
-            </li>
+            <li><span>Rice with octopus and artichokes</span><strong>€23</strong></li>
           </ul>
         </section>
       </section>

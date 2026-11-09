@@ -53,39 +53,70 @@
           Eventos de 8 a 35 personas · Servicio del chef, desplazamiento e instalación bajo
           presupuesto.
         </p>
+        <div class="carte-photo-strip">
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-paella-valencienne-800.jpg"
+              srcset="../assets/gallery-roberto-paella-valencienne-800.jpg 800w, ../assets/gallery-roberto-paella-valencienne.jpg 1800w"
+              sizes="(max-width: 650px) 90vw, 42vw"
+              width="1800"
+              height="1200"
+              alt="Paella valenciana vista desde arriba"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-ingredients-800.jpg"
+              srcset="../assets/gallery-roberto-ingredients-800.jpg 800w, ../assets/gallery-roberto-ingredients.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="Los ingredientes"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="../assets/gallery-roberto-vapeur-800.jpg"
+              srcset="../assets/gallery-roberto-vapeur-800.jpg 800w, ../assets/gallery-roberto-vapeur.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="Verduras humeantes"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
       </section>
       <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
       <section class="carte-section" aria-labelledby="essentials-heading">
         <p class="carte-eyebrow">01 · Todo el año</p>
         <h2 id="essentials-heading">Los imprescindibles</h2>
-        <p class="carte-intro">
-          Nuestras especialidades más emblemáticas, inspiradas en la tradición valenciana y los
-          sabores mediterráneos.
-        </p>
-        <ul class="carte-dishes">
-          <li>
-            <span
-              >Paella valenciana tradicional (pollo, judías verdes, garrofó y romero; conejo
-              opcional)</span
-            ><strong>17 €</strong>
-          </li>
-          <li><span>Arroz negro con sepia y calamar</span><strong>20 €</strong></li>
-          <li><span>Arroz del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
-          <li><span>Fideuá negra con calamar y lubina</span><strong>21 €</strong></li>
-          <li>
-            <span>Arroz con conejo, caracoles, pimiento rojo y romero</span><strong>21 €</strong>
-          </li>
-          <li><span>Arroz con verduras de temporada</span><strong>17 €</strong></li>
-          <li>
-            <span>Arroz con blanquet, morcilla, panceta, costillas, patatas y tomate</span
-            ><strong>20 €</strong>
-          </li>
-          <li><span>Fideuá del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
-          <li>
-            <span>Arroz con albóndigas trufadas, blanquet y espinacas</span><strong>22 €</strong>
-          </li>
-          <li><span>Arroz con pulpo y patatas</span><strong>22 €</strong></li>
-        </ul>
+        <p class="carte-intro">Nuestras especialidades valencianas y mediterráneas, disponibles todo el año.</p>
+        <div class="carte-dish-group">
+          <h3>Los arroces</h3>
+          <ul class="carte-dishes">
+            <li><span>Paella valenciana tradicional (pollo, judías verdes, garrofó y romero; conejo opcional)</span><strong>17 €</strong></li>
+            <li><span>Arroz negro con sepia y calamar</span><strong>22 €</strong></li>
+            <li><span>Arroz del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
+            <li><span>Arroz con conejo, caracoles, pimiento rojo y romero</span><strong>19 €</strong></li>
+            <li><span>Arroz con verduras de temporada</span><strong>18 €</strong></li>
+            <li><span>Arroz con blanquet, morcilla, panceta, costillas, patatas y tomate</span><strong>21 €</strong></li>
+            <li><span>Arroz con albóndigas trufadas, blanquet y espinacas</span><strong>22 €</strong></li>
+            <li><span>Arroz con pulpo y patatas</span><strong>23 €</strong></li>
+          </ul>
+        </div>
+        <div class="carte-dish-group">
+          <h3>Las fideuàs</h3>
+          <ul class="carte-dishes">
+            <li><span>Fideuá negra con calamar y lubina</span><strong>22 €</strong></li>
+            <li><span>Fideuá del senyoret: calamar, dorada y gambas</span><strong>22 €</strong></li>
+          </ul>
+        </div>
       </section>
       <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
       <section class="carte-section" aria-labelledby="seasonal-heading">
@@ -109,9 +140,7 @@
           <h3 id="heading-autumn">Otoño · Septiembre – noviembre</h3>
           <ul class="carte-dishes">
             <li><span>Arroz con calabaza asada, setas y romero</span><strong>19 €</strong></li>
-            <li><span>Arroz meloso con pato y setas</span><strong>23 €</strong></li>
             <li><span>Arroz con secreto de cerdo, setas y calabaza</span><strong>23 €</strong></li>
-            <li><span>Paella con pato, setas y foie gras</span><strong>25 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
@@ -119,7 +148,6 @@
           <ul class="carte-dishes">
             <li><span>Arroz meloso con bacalao y coliflor</span><strong>21 €</strong></li>
             <li><span>Arroz con alcachofas y verduras de invierno</span><strong>19 €</strong></li>
-            <li><span>Fideuá con setas y trufa</span><strong>21 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
@@ -128,16 +156,14 @@
             <li>
               <span>Arroz con alcachofas, espárragos verdes y habas</span><strong>20 €</strong>
             </li>
-            <li><span>Arroz meloso con bacalao y coliflor</span><strong>21 €</strong></li>
-            <li><span>Arroz con verduras de primavera</span><strong>17 €</strong></li>
+            <li><span>Arroz seco de coliflor y bacalao</span><strong>21 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
           <h3 id="heading-summer">Verano · Junio – agosto</h3>
           <ul class="carte-dishes">
             <li><span>Fideuá de berenjena y alioli de alga nori</span><strong>19 €</strong></li>
-            <li><span>Arroz con pulpo y alcachofas</span><strong>22 €</strong></li>
-            <li><span>Arroz meloso con rape, alcachofas y gambas</span><strong>25 €</strong></li>
+            <li><span>Arroz con pulpo y alcachofas</span><strong>23 €</strong></li>
           </ul>
         </section>
       </section>
