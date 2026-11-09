@@ -53,45 +53,70 @@
           Événements de 8 à 35 personnes · Prestation du chef, déplacement et installation sur
           devis.
         </p>
+        <div class="carte-photo-strip">
+          <figure class="story-photo">
+            <img
+              src="assets/gallery-roberto-paella-valencienne-800.jpg"
+              srcset="assets/gallery-roberto-paella-valencienne-800.jpg 800w, assets/gallery-roberto-paella-valencienne.jpg 1800w"
+              sizes="(max-width: 650px) 90vw, 42vw"
+              width="1800"
+              height="1200"
+              alt="Paella valencienne vue de dessus"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="assets/gallery-roberto-ingredients-800.jpg"
+              srcset="assets/gallery-roberto-ingredients-800.jpg 800w, assets/gallery-roberto-ingredients.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="Les ingr&#233;dients"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+          <figure class="story-photo">
+            <img
+              src="assets/gallery-roberto-vapeur-800.jpg"
+              srcset="assets/gallery-roberto-vapeur-800.jpg 800w, assets/gallery-roberto-vapeur.jpg 1800w"
+              sizes="(max-width: 650px) 44vw, 24vw"
+              width="1800"
+              height="1200"
+              alt="La vapeur des l&#233;gumes"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
       </section>
       <!-- 3.2. Year-round specialities, kept in HTML for manual editing. -->
       <section class="carte-section" aria-labelledby="essentials-heading">
         <p class="carte-eyebrow">01 · Toute l’année</p>
         <h2 id="essentials-heading">Les incontournables</h2>
-        <p class="carte-intro">
-          Nos spécialités emblématiques, inspirées de la tradition valencienne et des saveurs
-          méditerranéennes.
-        </p>
-        <ul class="carte-dishes">
-          <li>
-            <span
-              >Paella valencienne traditionnelle (poulet, haricots verts, garrofó et romarin ; lapin
-              en option)</span
-            ><strong>17 €</strong>
-          </li>
-          <li><span>Riz noir à la seiche et aux calamars</span><strong>20 €</strong></li>
-          <li>
-            <span>Arroz del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong>
-          </li>
-          <li><span>Fideuà noire au calamar et au bar</span><strong>21 €</strong></li>
-          <li>
-            <span>Riz au lapin, escargots, poivron rouge et romarin</span><strong>21 €</strong>
-          </li>
-          <li><span>Riz aux légumes de saison</span><strong>17 €</strong></li>
-          <li>
-            <span
-              >Riz au boudin blanc, boudin noir, poitrine de porc, travers, pommes de terre et
-              tomate</span
-            ><strong>20 €</strong>
-          </li>
-          <li>
-            <span>Fideuà del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong>
-          </li>
-          <li>
-            <span>Riz aux boulettes truffées, boudin blanc et épinards</span><strong>22 €</strong>
-          </li>
-          <li><span>Riz au poulpe et pommes de terre</span><strong>22 €</strong></li>
-        </ul>
+        <p class="carte-intro">Nos spécialités valenciennes et méditerranéennes, proposées toute l’année.</p>
+        <div class="carte-dish-group">
+          <h3>Les riz</h3>
+          <ul class="carte-dishes">
+            <li><span>Paella valencienne traditionnelle — poulet, haricots verts, garrofó et romarin (lapin en option)</span><strong>17 €</strong></li>
+            <li><span>Riz noir à la seiche et aux calamars</span><strong>22 €</strong></li>
+            <li><span>Riz del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong></li>
+            <li><span>Riz au lapin, aux escargots, au poivron rouge et au romarin</span><strong>19 €</strong></li>
+            <li><span>Riz aux légumes de saison</span><strong>18 €</strong></li>
+            <li><span>Riz aux boudins blanc et noir, à la poitrine et aux travers de porc, aux pommes de terre et à la tomate</span><strong>21 €</strong></li>
+            <li><span>Riz aux boulettes truffées, au boudin blanc et aux épinards</span><strong>22 €</strong></li>
+            <li><span>Riz au poulpe et aux pommes de terre</span><strong>23 €</strong></li>
+          </ul>
+        </div>
+        <div class="carte-dish-group">
+          <h3>Les fideuàs</h3>
+          <ul class="carte-dishes">
+            <li><span>Fideuà noire au calamar et au bar</span><strong>22 €</strong></li>
+            <li><span>Fideuà del senyoret — calamar, dorade et crevettes</span><strong>22 €</strong></li>
+          </ul>
+        </div>
       </section>
       <!-- 3.3. Seasonal dishes; all remain visible when JavaScript is unavailable. -->
       <section class="carte-section" aria-labelledby="seasonal-heading">
@@ -115,9 +140,7 @@
           <h3 id="heading-autumn">Automne · Septembre – novembre</h3>
           <ul class="carte-dishes">
             <li><span>Riz à la courge rôtie, champignons et romarin</span><strong>19 €</strong></li>
-            <li><span>Riz meloso au canard et aux champignons</span><strong>23 €</strong></li>
             <li><span>Riz au secreto de porc, champignons et courge</span><strong>23 €</strong></li>
-            <li><span>Paella au canard, champignons et foie gras</span><strong>25 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-winter" aria-labelledby="heading-winter">
@@ -125,26 +148,20 @@
           <ul class="carte-dishes">
             <li><span>Riz meloso au cabillaud et chou-fleur</span><strong>21 €</strong></li>
             <li><span>Riz aux artichauts et légumes d’hiver</span><strong>19 €</strong></li>
-            <li><span>Fideuà aux champignons et à la truffe</span><strong>21 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-spring" aria-labelledby="heading-spring">
           <h3 id="heading-spring">Printemps · Mars – mai</h3>
           <ul class="carte-dishes">
             <li><span>Riz aux artichauts, asperges vertes et fèves</span><strong>20 €</strong></li>
-            <li><span>Riz meloso au cabillaud et chou-fleur</span><strong>21 €</strong></li>
-            <li><span>Riz aux légumes printaniers</span><strong>17 €</strong></li>
+            <li><span>Riz sec au chou-fleur et au cabillaud</span><strong>21 €</strong></li>
           </ul>
         </section>
         <section class="carte-season" id="season-summer" aria-labelledby="heading-summer">
           <h3 id="heading-summer">Été · Juin – août</h3>
           <ul class="carte-dishes">
             <li><span>Fideuà à l’aubergine et aïoli à l’algue nori</span><strong>19 €</strong></li>
-            <li><span>Riz au poulpe et aux artichauts</span><strong>22 €</strong></li>
-            <li>
-              <span>Riz meloso à la lotte, aux artichauts et aux crevettes</span
-              ><strong>25 €</strong>
-            </li>
+            <li><span>Riz au poulpe et aux artichauts</span><strong>23 €</strong></li>
           </ul>
         </section>
       </section>
